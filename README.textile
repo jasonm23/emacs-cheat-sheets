@@ -8,62 +8,62 @@ The immensly powerful file manager sitting inside
 
 h3. Key bindings
 
-| <kbd>(</kbd> and <kbd>)</kbd>  *dired-details-toggle*   | <kbd>DEL</kbd>  *dired-unmark-backward* |
-| <kbd>e</kbd> and <kbd>f</kbd>  *dired-find-file*        | <kbd>C</kbd>-<kbd>{</kbd>  *dired-narrow-window* |
-| <kbd>RET</kbd>  *dired-find-file*                       | <kbd>C</kbd>-<kbd>t</kbd> <kbd>C</kbd>-<kbd>t</kbd>  *image-dired-dired-toggle-marked-thumbs* |
-| <kbd>C</kbd>-<kbd>o</kbd>  *dired-display-file*         | <kbd>C</kbd>-<kbd>t</kbd> <kbd>.</kbd>  *image-dired-display-thumb* |
-| <kbd>!</kbd>  *dired-do-shell-command*                  | <kbd>C</kbd>-<kbd>t</kbd> <kbd>c</kbd>  *image-dired-dired-comment-files* |
-| <kbd>#</kbd>  *dired-flag-auto-save-files*              | <kbd>C</kbd>-<kbd>t</kbd> <kbd>d</kbd>  *image-dired-display-thumbs* |
-| <kbd>$</kbd>  *dired-hide-subdir*                       | <kbd>C</kbd>-<kbd>t</kbd> <kbd>e</kbd>  *image-dired-dired-edit-comment-and-tags* |
-| <kbd>&</kbd>  *dired-do-async-shell-command*            | <kbd>C</kbd>-<kbd>t</kbd> <kbd>f</kbd>  *image-dired-mark-tagged-files* |
-| <kbd>+</kbd>  *dired-create-directory*                  | <kbd>C</kbd>-<kbd>t</kbd> <kbd>i</kbd>  *image-dired-dired-display-image* |
-| <kbd>-</kbd>  *negative-argument*                       | <kbd>C</kbd>-<kbd>t</kbd> <kbd>j</kbd>  *image-dired-jump-thumbnail-buffer* |
-| <kbd>.</kbd>  *dired-clean-directory*                   | <kbd>C</kbd>-<kbd>t</kbd> <kbd>r</kbd>  *image-dired-delete-tag* |
-| <kbd>0</kbd>  *dired-details-toggle*                    | <kbd>C</kbd>-<kbd>t</kbd> <kbd>t</kbd>  *image-dired-tag-files* |
-| <kbd>1</kbd> .. <kbd>9</kbd>  *digit-argument*          | <kbd>C</kbd>-<kbd>t</kbd> <kbd>x</kbd>  *image-dired-dired-display-external* |
-| <kbd>&lt;</kbd>  *dired-prev-dirline*                   | <kbd>C</kbd>-<kbd>M</kbd>-<kbd>d</kbd>  *dired-tree-down* |
-| <kbd>=</kbd>  *dired-diff*                              | <kbd>C</kbd>-<kbd>M</kbd>-<kbd>n</kbd>  *dired-next-subdir* |
-| <kbd>&gt;</kbd>  *dired-next-dirline*                   | <kbd>C</kbd>-<kbd>M</kbd>-<kbd>p</kbd>  *dired-prev-subdir* |
-| <kbd>?</kbd>  *dired-summary*                           | <kbd>C</kbd>-<kbd>M</kbd>-<kbd>u</kbd>  *dired-tree-up* |
-| <kbd>A</kbd>  *dired-do-search*                         | <kbd>M</kbd>-<kbd>$</kbd>  *dired-hide-all* |
-| <kbd>B</kbd>  *dired-do-byte-compile*                   | <kbd>M</kbd>-<kbd>{</kbd>  *dired-prev-marked-file* |
-| <kbd>C</kbd>  *dired-do-copy*                           | <kbd>M</kbd>-<kbd>}</kbd>  *dired-next-marked-file* |
-| <kbd>D</kbd>  *dired-do-delete*                         | <kbd>M</kbd>-<kbd>DEL</kbd>  *dired-unmark-all-files* |
-| <kbd>F</kbd>  *my-dired-find-file*                      | <kbd>%</kbd> <kbd>&amp;</kbd>  *dired-flag-garbage-files* |
-| <kbd>G</kbd>  *dired-do-chgrp*                          | <kbd>%</kbd> <kbd>C</kbd>  *dired-do-copy-regexp* |
-| <kbd>H</kbd>  *dired-do-hardlink*                       | <kbd>%</kbd> <kbd>H</kbd>  *dired-do-hardlink-regexp* |
-| <kbd>L</kbd>  *dired-do-load*                           | <kbd>%</kbd> <kbd>R</kbd>  *dired-do-rename-regexp* |
-| <kbd>M</kbd>  *dired-do-chmod*                          | <kbd>%</kbd> <kbd>S</kbd>  *dired-do-symlink-regexp* |
-| <kbd>O</kbd>  *dired-do-chown*                          | <kbd>%</kbd> <kbd>d</kbd>  *dired-flag-files-regexp* |
-| <kbd>P</kbd>  *dired-do-print*                          | <kbd>%</kbd> <kbd>g</kbd>  *dired-mark-files-containing-regexp* |
-| <kbd>Q</kbd>  *dired-do-query-replace-regexp*           | <kbd>%</kbd> <kbd>l</kbd>  *dired-downcase* |
-| <kbd>R</kbd>  *dired-do-rename*                         | <kbd>%</kbd> <kbd>m</kbd>  *dired-mark-files-regexp* |
-| <kbd>S</kbd>  *dired-do-symlink*                        | <kbd>%</kbd> <kbd>r</kbd>  *dired-do-rename-regexp* |
-| <kbd>T</kbd>  *dired-do-touch*                          | <kbd>%</kbd> <kbd>u</kbd>  *dired-upcase* |
-| <kbd>U</kbd>  *dired-unmark-all-marks*                  | <kbd> * </kbd> <kbd>C</kbd>-<kbd>n</kbd>  *dired-next-marked-file* |
-| <kbd>X</kbd>  *dired-do-shell-command*                  | <kbd> * </kbd> <kbd>C</kbd>-<kbd>p</kbd>  *dired-prev-marked-file* |
-| <kbd>Z</kbd>  *dired-do-compress*                       | <kbd> * </kbd> <kbd>!</kbd>  *dired-unmark-all-marks* |
-| <kbd>^</kbd>  *dired-up-directory*                      | <kbd> * </kbd> <kbd>%</kbd>  *dired-mark-files-regexp* |
-| <kbd>a</kbd>  *dired-find-alternate-file*               | <kbd> * </kbd> <kbd> * </kbd>  *dired-mark-executables* |
-| <kbd>d</kbd>  *dired-flag-file-deletion*                | <kbd> * </kbd> <kbd>/</kbd>  *dired-mark-directories* |
-| <kbd>g</kbd>  *revert-buffer*                           | <kbd> * </kbd> <kbd>?</kbd>  *dired-unmark-all-files* |
-| <kbd>h</kbd>  *describe-mode*                           | <kbd> * </kbd> <kbd>@</kbd>  *dired-mark-symlinks* |
-| <kbd>i</kbd>  *dired-maybe-insert-subdir*               | <kbd> * </kbd> <kbd>c</kbd>  *dired-change-marks* |
-| <kbd>j</kbd>  *dired-goto-file*                         | <kbd> * </kbd> <kbd>m</kbd>  *dired-mark* |
-| <kbd>k</kbd>  *dired-do-kill-lines*                     | <kbd> * </kbd> <kbd>s</kbd>  *dired-mark-subdir-files* |
-| <kbd>l</kbd>  *dired-do-redisplay*                      | <kbd> * </kbd> <kbd>t</kbd>  *dired-toggle-marks* |
-| <kbd>m</kbd>  *dired-mark*                              | <kbd> * </kbd> <kbd>u</kbd>  *dired-unmark* |
-| <kbd>n</kbd>  *dired-next-line*                         | <kbd> * </kbd> <kbd>DEL</kbd>  *dired-unmark-backward* |
-| <kbd>o</kbd>  *dired-find-file-other-window*            | <kbd>:</kbd> <kbd>d</kbd>  *epa-dired-do-decrypt* |
-| <kbd>p</kbd>  *dired-previous-line*                     | <kbd>:</kbd> <kbd>e</kbd>  *epa-dired-do-encrypt* |
-| <kbd>q</kbd>  *quit-window*                             | <kbd>:</kbd> <kbd>s</kbd>  *epa-dired-do-sign* |
-| <kbd>s</kbd>  *dired-sort-toggle-or-edit*               | <kbd>:</kbd> <kbd>v</kbd>  *epa-dired-do-verify* |
-| <kbd>t</kbd>  *dired-toggle-marks*                      | <kbd>M</kbd>-<kbd>s</kbd> <kbd>f</kbd> <kbd>C</kbd>-<kbd>s</kbd>  *dired-isearch-filenames* |
-| <kbd>u</kbd>  *dired-unmark*                            | <kbd>M</kbd>-<kbd>s</kbd> <kbd>a</kbd> <kbd>C</kbd>-<kbd>s</kbd>  *dired-do-isearch* |
-| <kbd>v</kbd>  *dired-view-file*                         | <kbd>M</kbd>-<kbd>s</kbd> <kbd>f</kbd> <kbd>C</kbd>-<kbd>M</kbd>-<kbd>s</kbd>  *dired-isearch-filenames-regexp* |
-| <kbd>w</kbd>  *dired-copy-filename-as-kill*             | <kbd>M</kbd>-<kbd>s</kbd> <kbd>a</kbd> <kbd>C</kbd>-<kbd>M</kbd>-<kbd>s</kbd>  *dired-do-isearch-regex* |
-| <kbd>x</kbd>  *dired-do-flagged-delete*                 | <kbd>y</kbd>  *dired-show-file-type* |
-| <kbd>~</kbd>  *dired-flag-backup-files*                 | |
+| <kbd>(</kbd> and <kbd>)</kbd>  *dired-details-toggle*  | <kbd>DEL</kbd>  *dired-unmark-backward*                                        |
+| <kbd>e</kbd> and <kbd>f</kbd>  *dired-find-file*       | <kbd>C-{</kbd>  *dired-narrow-window*                                          |
+| <kbd>RET</kbd>  *dired-find-file*                      | <kbd>C-t</kbd> <kbd>C-t</kbd>  *image-dired-dired-toggle-marked-thumbs*        |
+| <kbd>C-o</kbd>  *dired-display-file*                   | <kbd>C-t</kbd> <kbd>.</kbd>  *image-dired-display-thumb*                       |
+| <kbd>!</kbd>  *dired-do-shell-command*                 | <kbd>C-t</kbd> <kbd>c</kbd>  *image-dired-dired-comment-files*                 |
+| <kbd>#</kbd>  *dired-flag-auto-save-files*             | <kbd>C-t</kbd> <kbd>d</kbd>  *image-dired-display-thumbs*                      |
+| <kbd>$</kbd>  *dired-hide-subdir*                      | <kbd>C-t</kbd> <kbd>e</kbd>  *image-dired-dired-edit-comment-and-tags*         |
+| <kbd>&</kbd>  *dired-do-async-shell-command*           | <kbd>C-t</kbd> <kbd>f</kbd>  *image-dired-mark-tagged-files*                   |
+| <kbd>+</kbd>  *dired-create-directory*                 | <kbd>C-t</kbd> <kbd>i</kbd>  *image-dired-dired-display-image*                 |
+| <kbd>-</kbd>  *negative-argument*                      | <kbd>C-t</kbd> <kbd>j</kbd>  *image-dired-jump-thumbnail-buffer*               |
+| <kbd>.</kbd>  *dired-clean-directory*                  | <kbd>C-t</kbd> <kbd>r</kbd>  *image-dired-delete-tag*                          |
+| <kbd>0</kbd>  *dired-details-toggle*                   | <kbd>C-t</kbd> <kbd>t</kbd>  *image-dired-tag-files*                           |
+| <kbd>1</kbd> .. <kbd>9</kbd>  *digit-argument*         | <kbd>C-t</kbd> <kbd>x</kbd>  *image-dired-dired-display-external*              |
+| <kbd>&lt;</kbd>  *dired-prev-dirline*                  | <kbd>C-M-d</kbd>  *dired-tree-down*                                            |
+| <kbd>=</kbd>  *dired-diff*                             | <kbd>C-M-n</kbd>  *dired-next-subdir*                                          |
+| <kbd>&gt;</kbd>  *dired-next-dirline*                  | <kbd>C-M-p</kbd>  *dired-prev-subdir*                                          |
+| <kbd>?</kbd>  *dired-summary*                          | <kbd>C-M-u</kbd>  *dired-tree-up*                                              |
+| <kbd>A</kbd>  *dired-do-search*                        | <kbd>M-$</kbd>  *dired-hide-all*                                               |
+| <kbd>B</kbd>  *dired-do-byte-compile*                  | <kbd>M-{</kbd>  *dired-prev-marked-file*                                       |
+| <kbd>C</kbd>  *dired-do-copy*                          | <kbd>M-}</kbd>  *dired-next-marked-file*                                       |
+| <kbd>D</kbd>  *dired-do-delete*                        | <kbd>M-DEL</kbd>  *dired-unmark-all-files*                                     |
+| <kbd>F</kbd>  *my-dired-find-file*                     | <kbd>%</kbd> <kbd>&amp;</kbd>  *dired-flag-garbage-files*                      |
+| <kbd>G</kbd>  *dired-do-chgrp*                         | <kbd>%</kbd> <kbd>C</kbd>  *dired-do-copy-regexp*                              |
+| <kbd>H</kbd>  *dired-do-hardlink*                      | <kbd>%</kbd> <kbd>H</kbd>  *dired-do-hardlink-regexp*                          |
+| <kbd>L</kbd>  *dired-do-load*                          | <kbd>%</kbd> <kbd>R</kbd>  *dired-do-rename-regexp*                            |
+| <kbd>M</kbd>  *dired-do-chmod*                         | <kbd>%</kbd> <kbd>S</kbd>  *dired-do-symlink-regexp*                           |
+| <kbd>O</kbd>  *dired-do-chown*                         | <kbd>%</kbd> <kbd>d</kbd>  *dired-flag-files-regexp*                           |
+| <kbd>P</kbd>  *dired-do-print*                         | <kbd>%</kbd> <kbd>g</kbd>  *dired-mark-files-containing-regexp*                |
+| <kbd>Q</kbd>  *dired-do-query-replace-regexp*          | <kbd>%</kbd> <kbd>l</kbd>  *dired-downcase*                                    |
+| <kbd>R</kbd>  *dired-do-rename*                        | <kbd>%</kbd> <kbd>m</kbd>  *dired-mark-files-regexp*                           |
+| <kbd>S</kbd>  *dired-do-symlink*                       | <kbd>%</kbd> <kbd>r</kbd>  *dired-do-rename-regexp*                            |
+| <kbd>T</kbd>  *dired-do-touch*                         | <kbd>%</kbd> <kbd>u</kbd>  *dired-upcase*                                      |
+| <kbd>U</kbd>  *dired-unmark-all-marks*                 | <kbd> * </kbd> <kbd>C-n</kbd>  *dired-next-marked-file*                        |
+| <kbd>X</kbd>  *dired-do-shell-command*                 | <kbd> * </kbd> <kbd>C-p</kbd>  *dired-prev-marked-file*                        |
+| <kbd>Z</kbd>  *dired-do-compress*                      | <kbd> * </kbd> <kbd>!</kbd>  *dired-unmark-all-marks*                          |
+| <kbd>^</kbd>  *dired-up-directory*                     | <kbd> * </kbd> <kbd>%</kbd>  *dired-mark-files-regexp*                         |
+| <kbd>a</kbd>  *dired-find-alternate-file*              | <kbd> * </kbd> <kbd> * </kbd>  *dired-mark-executables*                        |
+| <kbd>d</kbd>  *dired-flag-file-deletion*               | <kbd> * </kbd> <kbd>/</kbd>  *dired-mark-directories*                          |
+| <kbd>g</kbd>  *revert-buffer*                          | <kbd> * </kbd> <kbd>?</kbd>  *dired-unmark-all-files*                          |
+| <kbd>h</kbd>  *describe-mode*                          | <kbd> * </kbd> <kbd>@</kbd>  *dired-mark-symlinks*                             |
+| <kbd>i</kbd>  *dired-maybe-insert-subdir*              | <kbd> * </kbd> <kbd>c</kbd>  *dired-change-marks*                              |
+| <kbd>j</kbd>  *dired-goto-file*                        | <kbd> * </kbd> <kbd>m</kbd>  *dired-mark*                                      |
+| <kbd>k</kbd>  *dired-do-kill-lines*                    | <kbd> * </kbd> <kbd>s</kbd>  *dired-mark-subdir-files*                         |
+| <kbd>l</kbd>  *dired-do-redisplay*                     | <kbd> * </kbd> <kbd>t</kbd>  *dired-toggle-marks*                              |
+| <kbd>m</kbd>  *dired-mark*                             | <kbd> * </kbd> <kbd>u</kbd>  *dired-unmark*                                    |
+| <kbd>n</kbd>  *dired-next-line*                        | <kbd> * </kbd> <kbd>DEL</kbd>  *dired-unmark-backward*                         |
+| <kbd>o</kbd>  *dired-find-file-other-window*           | <kbd>:</kbd> <kbd>d</kbd>  *epa-dired-do-decrypt*                              |
+| <kbd>p</kbd>  *dired-previous-line*                    | <kbd>:</kbd> <kbd>e</kbd>  *epa-dired-do-encrypt*                              |
+| <kbd>q</kbd>  *quit-window*                            | <kbd>:</kbd> <kbd>s</kbd>  *epa-dired-do-sign*                                 |
+| <kbd>s</kbd>  *dired-sort-toggle-or-edit*              | <kbd>:</kbd> <kbd>v</kbd>  *epa-dired-do-verify*                               |
+| <kbd>t</kbd>  *dired-toggle-marks*                     | <kbd>M-s</kbd> <kbd>f</kbd> <kbd>C-s</kbd>  *dired-isearch-filenames*          |
+| <kbd>u</kbd>  *dired-unmark*                           | <kbd>M-s</kbd> <kbd>a</kbd> <kbd>C-s</kbd>  *dired-do-isearch*                 |
+| <kbd>v</kbd>  *dired-view-file*                        | <kbd>M-s</kbd> <kbd>f</kbd> <kbd>C-M-s</kbd>  *dired-isearch-filenames-regexp* |
+| <kbd>w</kbd>  *dired-copy-filename-as-kill*            | <kbd>M-s</kbd> <kbd>a</kbd> <kbd>C-M-s</kbd>  *dired-do-isearch-regex*         |
+| <kbd>x</kbd>  *dired-do-flagged-delete*                | <kbd>y</kbd>  *dired-show-file-type*                                           |
+| <kbd>~</kbd>  *dired-flag-backup-files*                |                                                                                |
 
 h3. Customization Vars
 
