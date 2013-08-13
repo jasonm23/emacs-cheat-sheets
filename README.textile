@@ -42,18 +42,18 @@ h3. Key bindings
 | <kbd>T</kbd>  *dired-do-touch*                         | <kbd>%</kbd> <kbd>u</kbd>  *dired-upcase*                                      |
 | <kbd>U</kbd>  *dired-unmark-all-marks*                 | <kbd> * </kbd> <kbd>C-n</kbd>  *dired-next-marked-file*                        |
 | <kbd>X</kbd>  *dired-do-shell-command*                 | <kbd> * </kbd> <kbd>C-p</kbd>  *dired-prev-marked-file*                        |
-| <kbd>Z</kbd>  *dired-do-compress*                      | <kbd> * </kbd> <kbd>!</kbd>  *dired-unmark-all-marks*                          |
-| <kbd>^</kbd>  *dired-up-directory*                     | <kbd> * </kbd> <kbd>%</kbd>  *dired-mark-files-regexp*                         |
+| <kbd>Z</kbd>  *dired-do-compress*                      | <kbd> * </kbd> <kbd> ! </kbd>  *dired-unmark-all-marks*                        |
+| <kbd>^</kbd>  *dired-up-directory*                     | <kbd> * </kbd> <kbd> % </kbd>  *dired-mark-files-regexp*                       |
 | <kbd>a</kbd>  *dired-find-alternate-file*              | <kbd> * </kbd> <kbd> * </kbd>  *dired-mark-executables*                        |
-| <kbd>d</kbd>  *dired-flag-file-deletion*               | <kbd> * </kbd> <kbd>/</kbd>  *dired-mark-directories*                          |
-| <kbd>g</kbd>  *revert-buffer*                          | <kbd> * </kbd> <kbd>?</kbd>  *dired-unmark-all-files*                          |
-| <kbd>h</kbd>  *describe-mode*                          | <kbd> * </kbd> <kbd>@</kbd>  *dired-mark-symlinks*                             |
-| <kbd>i</kbd>  *dired-maybe-insert-subdir*              | <kbd> * </kbd> <kbd>c</kbd>  *dired-change-marks*                              |
-| <kbd>j</kbd>  *dired-goto-file*                        | <kbd> * </kbd> <kbd>m</kbd>  *dired-mark*                                      |
-| <kbd>k</kbd>  *dired-do-kill-lines*                    | <kbd> * </kbd> <kbd>s</kbd>  *dired-mark-subdir-files*                         |
-| <kbd>l</kbd>  *dired-do-redisplay*                     | <kbd> * </kbd> <kbd>t</kbd>  *dired-toggle-marks*                              |
-| <kbd>m</kbd>  *dired-mark*                             | <kbd> * </kbd> <kbd>u</kbd>  *dired-unmark*                                    |
-| <kbd>n</kbd>  *dired-next-line*                        | <kbd> * </kbd> <kbd>DEL</kbd>  *dired-unmark-backward*                         |
+| <kbd>d</kbd>  *dired-flag-file-deletion*               | <kbd> * </kbd> <kbd> / </kbd>  *dired-mark-directories*                        |
+| <kbd>g</kbd>  *revert-buffer*                          | <kbd> * </kbd> <kbd> ? </kbd>  *dired-unmark-all-files*                        |
+| <kbd>h</kbd>  *describe-mode*                          | <kbd> * </kbd> <kbd> @ </kbd>  *dired-mark-symlinks*                           |
+| <kbd>i</kbd>  *dired-maybe-insert-subdir*              | <kbd> * </kbd> <kbd> c </kbd>  *dired-change-marks*                            |
+| <kbd>j</kbd>  *dired-goto-file*                        | <kbd> * </kbd> <kbd> m </kbd>  *dired-mark*                                    |
+| <kbd>k</kbd>  *dired-do-kill-lines*                    | <kbd> * </kbd> <kbd> s </kbd>  *dired-mark-subdir-files*                       |
+| <kbd>l</kbd>  *dired-do-redisplay*                     | <kbd> * </kbd> <kbd> t </kbd>  *dired-toggle-marks*                            |
+| <kbd>m</kbd>  *dired-mark*                             | <kbd> * </kbd> <kbd> u </kbd>  *dired-unmark*                                  |
+| <kbd>n</kbd>  *dired-next-line*                        | <kbd> * </kbd> <kbd> DEL </kbd>  *dired-unmark-backward*                       |
 | <kbd>o</kbd>  *dired-find-file-other-window*           | <kbd>:</kbd> <kbd>d</kbd>  *epa-dired-do-decrypt*                              |
 | <kbd>p</kbd>  *dired-previous-line*                    | <kbd>:</kbd> <kbd>e</kbd>  *epa-dired-do-encrypt*                              |
 | <kbd>q</kbd>  *quit-window*                            | <kbd>:</kbd> <kbd>s</kbd>  *epa-dired-do-sign*                                 |
