@@ -1,0 +1,158 @@
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="keys.css" type="text/css" />
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+
+# Dired 
+
+### Keybindings:
+
+
+ | key                                                                           | binding                                 |
+ |-------------------------------------------------------------------------------|-----------------------------------------|
+ | <kbd>(</kbd> and <kbd>)</kbd>                                                 | dired-details-toggle                    |
+ | <kbd>e</kbd> and <kbd>f</kbd>                                                 | dired-find-file                         |
+ | <kbd>RET</kbd>                                                                | dired-find-file                         |
+ | <kbd>C</kbd>-<kbd>o</kbd>                                                     | dired-display-file                      |
+ | <kbd>C</kbd>-<kbd>t</kbd>                                                     | Prefix Command                          |
+ | <kbd>ESC</kbd>                                                                | Prefix Command                          |
+ | <kbd>SPC</kbd>                                                                | dired-next-line                         |
+ | <kbd>!</kbd>                                                                  | dired-do-shell-command                  |
+ | <kbd>#</kbd>                                                                  | dired-flag-auto-save-files              |
+ | <kbd>$</kbd>                                                                  | dired-hide-subdir                       |
+ | <kbd>%</kbd>                                                                  | Prefix Command                          |
+ | <kbd>&</kbd>                                                                  | dired-do-async-shell-command            |
+ | <kbd>*</kbd>                                                                  | Prefix Command                          |
+ | <kbd>+</kbd>                                                                  | dired-create-directory                  |
+ | <kbd>-</kbd>                                                                  | negative-argument                       |
+ | <kbd>.</kbd>                                                                  | dired-clean-directory                   |
+ | <kbd>0</kbd>                                                                  | dired-details-toggle                    |
+ | <kbd>1</kbd> .. <kbd>9</kbd>                                                  | digit-argument                          |
+ | <kbd>:</kbd>                                                                  | Prefix Command                          |
+ | <kbd>&lt;</kbd>                                                                  | dired-prev-dirline                      |
+ | <kbd>=</kbd>                                                                  | dired-diff                              |
+ | <kbd>&gt;</kbd>                                                                  | dired-next-dirline                      |
+ | <kbd>?</kbd>                                                                  | dired-summary                           |
+ | <kbd>A</kbd>                                                                  | dired-do-search                         |
+ | <kbd>B</kbd>                                                                  | dired-do-byte-compile                   |
+ | <kbd>C</kbd>                                                                  | dired-do-copy                           |
+ | <kbd>D</kbd>                                                                  | dired-do-delete                         |
+ | <kbd>F</kbd>                                                                  | my-dired-find-file                      |
+ | <kbd>G</kbd>                                                                  | dired-do-chgrp                          |
+ | <kbd>H</kbd>                                                                  | dired-do-hardlink                       |
+ | <kbd>L</kbd>                                                                  | dired-do-load                           |
+ | <kbd>M</kbd>                                                                  | dired-do-chmod                          |
+ | <kbd>O</kbd>                                                                  | dired-do-chown                          |
+ | <kbd>P</kbd>                                                                  | dired-do-print                          |
+ | <kbd>Q</kbd>                                                                  | dired-do-query-replace-regexp           |
+ | <kbd>R</kbd>                                                                  | dired-do-rename                         |
+ | <kbd>S</kbd>                                                                  | dired-do-symlink                        |
+ | <kbd>T</kbd>                                                                  | dired-do-touch                          |
+ | <kbd>U</kbd>                                                                  | dired-unmark-all-marks                  |
+ | <kbd>X</kbd>                                                                  | dired-do-shell-command                  |
+ | <kbd>Z</kbd>                                                                  | dired-do-compress                       |
+ | <kbd>^</kbd>                                                                  | dired-up-directory                      |
+ | <kbd>a</kbd>                                                                  | dired-find-alternate-file               |
+ | <kbd>d</kbd>                                                                  | dired-flag-file-deletion                |
+ | <kbd>g</kbd>                                                                  | revert-buffer                           |
+ | <kbd>h</kbd>                                                                  | describe-mode                           |
+ | <kbd>i</kbd>                                                                  | dired-maybe-insert-subdir               |
+ | <kbd>j</kbd>                                                                  | dired-goto-file                         |
+ | <kbd>k</kbd>                                                                  | dired-do-kill-lines                     |
+ | <kbd>l</kbd>                                                                  | dired-do-redisplay                      |
+ | <kbd>m</kbd>                                                                  | dired-mark                              |
+ | <kbd>n</kbd>                                                                  | dired-next-line                         |
+ | <kbd>o</kbd>                                                                  | dired-find-file-other-window            |
+ | <kbd>p</kbd>                                                                  | dired-previous-line                     |
+ | <kbd>q</kbd>                                                                  | quit-window                             |
+ | <kbd>s</kbd>                                                                  | dired-sort-toggle-or-edit               |
+ | <kbd>t</kbd>                                                                  | dired-toggle-marks                      |
+ | <kbd>u</kbd>                                                                  | dired-unmark                            |
+ | <kbd>v</kbd>                                                                  | dired-view-file                         |
+ | <kbd>w</kbd>                                                                  | dired-copy-filename-as-kill             |
+ | <kbd>x</kbd>                                                                  | dired-do-flagged-delete                 |
+ | <kbd>y</kbd>                                                                  | dired-show-file-type                    |
+ | <kbd>~</kbd>                                                                  | dired-flag-backup-files                 |
+ | <kbd>DEL</kbd>                                                                | dired-unmark-backward                   |
+ | <kbd>C</kbd>-<kbd>{</kbd>                                                     | dired-narrow-window                     |
+ | <kbd>C</kbd>-<kbd>t</kbd> <kbd>C</kbd>-<kbd>t</kbd>                           | image-dired-dired-toggle-marked-thumbs  |
+ | <kbd>C</kbd>-<kbd>t</kbd> <kbd>.</kbd>                                        | image-dired-display-thumb               |
+ | <kbd>C</kbd>-<kbd>t</kbd> <kbd>a</kbd>                                        | image-dired-display-thumbs-append       |
+ | <kbd>C</kbd>-<kbd>t</kbd> <kbd>c</kbd>                                        | image-dired-dired-comment-files         |
+ | <kbd>C</kbd>-<kbd>t</kbd> <kbd>d</kbd>                                        | image-dired-display-thumbs              |
+ | <kbd>C</kbd>-<kbd>t</kbd> <kbd>e</kbd>                                        | image-dired-dired-edit-comment-and-tags |
+ | <kbd>C</kbd>-<kbd>t</kbd> <kbd>f</kbd>                                        | image-dired-mark-tagged-files           |
+ | <kbd>C</kbd>-<kbd>t</kbd> <kbd>i</kbd>                                        | image-dired-dired-display-image         |
+ | <kbd>C</kbd>-<kbd>t</kbd> <kbd>j</kbd>                                        | image-dired-jump-thumbnail-buffer       |
+ | <kbd>C</kbd>-<kbd>t</kbd> <kbd>r</kbd>                                        | image-dired-delete-tag                  |
+ | <kbd>C</kbd>-<kbd>t</kbd> <kbd>t</kbd>                                        | image-dired-tag-files                   |
+ | <kbd>C</kbd>-<kbd>t</kbd> <kbd>x</kbd>                                        | image-dired-dired-display-external      |
+ | <kbd>C</kbd>-<kbd>M</kbd>-<kbd>d</kbd>                                        | dired-tree-down                         |
+ | <kbd>C</kbd>-<kbd>M</kbd>-<kbd>n</kbd>                                        | dired-next-subdir                       |
+ | <kbd>C</kbd>-<kbd>M</kbd>-<kbd>p</kbd>                                        | dired-prev-subdir                       |
+ | <kbd>C</kbd>-<kbd>M</kbd>-<kbd>u</kbd>                                        | dired-tree-up                           |
+ | <kbd>M</kbd>-<kbd>$</kbd>                                                     | dired-hide-all                          |
+ | <kbd>M</kbd>-<kbd>s</kbd>                                                     | Prefix Command                          |
+ | <kbd>M</kbd>-<kbd>{</kbd>                                                     | dired-prev-marked-file                  |
+ | <kbd>M</kbd>-<kbd>}</kbd>                                                     | dired-next-marked-file                  |
+ | <kbd>M</kbd>-<kbd>DEL</kbd>                                                   | dired-unmark-all-files                  |
+ | <kbd>M</kbd>-<kbd>s</kbd> <kbd>a</kbd>                                        | Prefix Command                          |
+ | <kbd>M</kbd>-<kbd>s</kbd> <kbd>f</kbd>                                        | Prefix Command                          |
+ | <kbd>%</kbb> <kbd>&</kbd>                                                     | dired-flag-garbage-files                |
+ | <kbd>%</kbd> <kbd>C</kbd>                                                     | dired-do-copy-regexp                    |
+ | <kbd>%</kbd> <kbd>H</kbd>                                                     | dired-do-hardlink-regexp                |
+ | <kbd>%</kbd> <kbd>R</kbd>                                                     | dired-do-rename-regexp                  |
+ | <kbd>%</kbd> <kbd>S</kbd>                                                     | dired-do-symlink-regexp                 |
+ | <kbd>%</kbd> <kbd>d</kbd>                                                     | dired-flag-files-regexp                 |
+ | <kbd>%</kbd> <kbd>g</kbd>                                                     | dired-mark-files-containing-regexp      |
+ | <kbd>%</kbd> <kbd>l</kbd>                                                     | dired-downcase                          |
+ | <kbd>%</kbd> <kbd>m</kbd>                                                     | dired-mark-files-regexp                 |
+ | <kbd>%</kbd> <kbd>r</kbd>                                                     | dired-do-rename-regexp                  |
+ | <kbd>%</kbd> <kbd>u</kbd>                                                     | dired-upcase                            |
+ | <kbd>*</kbd> <kbd>C</kbd>-n                                                   | dired-next-marked-file                  |
+ | <kbd>*</kbd> <kbd>C</kbd>-p                                                   | dired-prev-marked-file                  |
+ | <kbd>*</kbd> <kbd>!</kbd>                                                     | dired-unmark-all-marks                  |
+ | <kbd>*</kbd> <kbd>%</kbd>                                                     | dired-mark-files-regexp                 |
+ | <kbd>*</kbd> <kbd>*</kbd>                                                     | dired-mark-executables                  |
+ | <kbd>*</kbd> <kbd>/</kbd>                                                     | dired-mark-directories                  |
+ | <kbd>*</kbd> <kbd>?</kbd>                                                     | dired-unmark-all-files                  |
+ | <kbd>*</kbd> <kbd>@</kbd>                                                     | dired-mark-symlinks                     |
+ | <kbd>*</kbd> <kbd>c</kbd>                                                     | dired-change-marks                      |
+ | <kbd>*</kbd> <kbd>m</kbd>                                                     | dired-mark                              |
+ | <kbd>*</kbd> <kbd>s</kbd>                                                     | dired-mark-subdir-files                 |
+ | <kbd>*</kbd> <kbd>t</kbd>                                                     | dired-toggle-marks                      |
+ | <kbd>*</kbd> <kbd>u</kbd>                                                     | dired-unmark                            |
+ | <kbd>*</kbd> <kbd>DEL</kbd>                                                   | dired-unmark-backward                   |
+ | <kbd>:</kbd> <kbd>d</kbd>                                                     | epa-dired-do-decrypt                    |
+ | <kbd>:</kbd> <kbd>e</kbd>                                                     | epa-dired-do-encrypt                    |
+ | <kbd>:</kbd> <kbd>s</kbd>                                                     | epa-dired-do-sign                       |
+ | <kbd>:</kbd> <kbd>v</kbd>                                                     | epa-dired-do-verify                     |
+ | <kbd>M</kbd>-<kbd>s</kbd> <kbd>f</kbd> <kbd>C</kbd>-<kbd>s</kbd>              | dired-isearch-filenames                 |
+ | <kbd>M</kbd>-<kbd>s</kbd> <kbd>f</kbd> <kbd>ESC</kbd>                         | Prefix Command                          |
+ | <kbd>M</kbd>-<kbd>s</kbd> <kbd>a</kbd> <kbd>C</kbd>-<kbd>s</kbd>              | dired-do-isearch                        |
+ | <kbd>M</kbd>-<kbd>s</kbd> <kbd>a</kbd> <kbd>ESC</kbd>                         | Prefix Command                          |
+ | <kbd>M</kbd>-<kbd>s</kbd> <kbd>f</kbd> <kbd>C</kbd>-<kbd>M</kbd>-<kbd>s</kbd> | dired-isearch-filenames-regexp          |
+ | <kbd>M</kbd>-<kbd>s</kbd> <kbd>a</kbd> <kbd>C</kbd>-<kbd>M</kbd>-<kbd>s</kbd> | dired-do-isearch-regexp                 |
+
+
+### Customization Vars
+
+Customization variables (rename this buffer and type C-h v on each line
+for more info):
+
+    `dired-listing-switches'
+    `dired-trivial-filenames'
+    `dired-marker-char'
+    `dired-del-marker'
+    `dired-keep-marker-rename'
+    `dired-keep-marker-copy'
+    `dired-keep-marker-hardlink'
+    `dired-keep-marker-symlink'
+
+### Hooks (use C-h v to see their documentation):
+
+    `dired-before-readin-hook'
+    `dired-after-readin-hook'
+    `dired-mode-hook'
+    `dired-load-hook'
+
+

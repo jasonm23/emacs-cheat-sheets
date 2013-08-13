@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet"/>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="keys.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      
+      <h1 class=>Dired Cheatsheet</h1>
+
+      <h3>Keybindings</h3>
+      
+      <table class="table table-condensed table-hover table-striped table-bordered">
+        <thead>
+          <tr>
+            <th class="span2">Key</th>
+            <th>Function</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><kbd>(</kbd> and <kbd>)</kbd></td>
+            <td><span class="func">dired-details-toggle</span></td>
+          </tr>
+          <tr>
+            <td><kbd>e</kbd> and <kbd>f</kbd></td>
+            <td><span class="func">dired-find-file</span></td>
+          </tr>
+          <tr>
+            <td><kbd>RET</kbd></td>
+            <td><span class="func">dired-find-file</span></td>
+          </tr>
+          <tr>
+            <td><kbd>C-o</kbd></td>
+            <td><span class="func">dired-display-file</span></td>
+          </tr>
+          <tr>
+            <td><kbd>C-t</kbd></td>
+            <td><span class="func">Prefix Command</span></td>
+          </tr>
+          <tr>
+            <td><kbd>ESC</kbd></td>
+            <td><span class="func">Prefix Command</span></td>
+          </tr>
+          <tr>
+            <td><kbd>SPC</kbd></td>
+            <td><span class="func">dired-next-line</span></td>
+          </tr>
+          <tr>
+            <td><kbd>!</kbd></td>
+            <td><span class="func">dired-do-shell-command</span></td>
+          </tr>
+          <tr>
+            <td><kbd>#</kbd></td>
+            <td><span class="func">dired-flag-auto-save-files</span></td>
+          </tr>
+          <tr>
+            <td><kbd>$</kbd></td>
+            <td><span class="func">dired-hide-subdir</span></td>
+          </tr>
+          <tr>
+            <td><kbd>%</kbd></td>
+            <td><span class="func">Prefix Command</span></td>
+          </tr>
+          <tr>
+            <td><kbd>&amp;</kbd></td>
+            <td><span class="func">dired-do-async-shell-command</span></td>
+          </tr>
+          <tr>
+            <td><kbd>*</kbd></td>
+            <td><span class="func">Prefix Command</span></td>
+          </tr>
+          <tr>
+            <td><kbd>+</kbd></td>
+            <td><span class="func">dired-create-directory</span></td>
+          </tr>
+          <tr>
+            <td><kbd>-</kbd></td>
+            <td><span class="func">negative-argument</span></td>
+          </tr>
+          <tr>
+            <td><kbd>.</kbd></td>
+            <td><span class="func">dired-clean-directory</span></td>
+          </tr>
+          <tr>
+            <td><kbd>0</kbd></td>
+            <td><span class="func">dired-details-toggle</span></td>
+          </tr>
+          <tr>
+            <td><kbd>1</kbd> .. <kbd>9</kbd></td>
+            <td><span class="func">digit-argument</span></td>
+          </tr>
+          <tr>
+            <td><kbd>:</kbd></td>
+            <td><span class="func">Prefix Command</span></td>
+          </tr>
+          <tr>
+            <td><kbd>&lt;</kbd></td>
+            <td><span class="func">dired-prev-dirline</span></td>
+          </tr>
+          <tr>
+            <td><kbd>=</kbd></td>
+            <td><span class="func">dired-diff</span></td>
+          </tr>
+          <tr>
+            <td><kbd>&gt;</kbd></td>
+            <td><span class="func">dired-next-dirline</span></td>
+          </tr>
+          <tr>
+            <td><kbd>?</kbd></td>
+            <td><span class="func">dired-summary</span></td>
+          </tr>
+          <tr>
+            <td><kbd>A</kbd></td>
+            <td><span class="func">dired-do-search</span></td>
+          </tr>
+          <tr>
+            <td><kbd>B</kbd></td>
+            <td><span class="func">dired-do-byte-compile</span></td>
+          </tr>
+          <tr>
+            <td><kbd>C</kbd></td>
+            <td><span class="func">dired-do-copy</span></td>
+          </tr>
+          <tr>
+            <td><kbd>D</kbd></td>
+            <td><span class="func">dired-do-delete</span></td>
+          </tr>
+          <tr>
+            <td><kbd>F</kbd></td>
+            <td><span class="func">my-dired-find-file</span></td>
+          </tr>
+          <tr>
+            <td><kbd>G</kbd></td>
+            <td><span class="func">dired-do-chgrp</span></td>
+          </tr>
+          <tr>
+            <td><kbd>H</kbd></td>
+            <td><span class="func">dired-do-hardlink</span></td>
+          </tr>
+          <tr>
+            <td><kbd>L</kbd></td>
+            <td><span class="func">dired-do-load</span></td>
+          </tr>
+          <tr>
+            <td><kbd>M</kbd></td>
+            <td><span class="func">dired-do-chmod</span></td>
+          </tr>
+          <tr>
+            <td><kbd>O</kbd></td>
+            <td><span class="func">dired-do-chown</span></td>
+          </tr>
+          <tr>
+            <td><kbd>P</kbd></td>
+            <td><span class="func">dired-do-print</span></td>
+          </tr>
+          <tr>
+            <td><kbd>Q</kbd></td>
+            <td><span class="func">dired-do-query-replace-regexp</span></td>
+          </tr>
+          <tr>
+            <td><kbd>R</kbd></td>
+            <td><span class="func">dired-do-rename</span></td>
+          </tr>
+          <tr>
+            <td><kbd>S</kbd></td>
+            <td><span class="func">dired-do-symlink</span></td>
+          </tr>
+          <tr>
+            <td><kbd>T</kbd></td>
+            <td><span class="func">dired-do-touch</span></td>
+          </tr>
+          <tr>
+            <td><kbd>U</kbd></td>
+            <td><span class="func">dired-unmark-all-marks</span></td>
+          </tr>
+          <tr>
+            <td><kbd>X</kbd></td>
+            <td><span class="func">dired-do-shell-command</span></td>
+          </tr>
+          <tr>
+            <td><kbd>Z</kbd></td>
+            <td><span class="func">dired-do-compress</span></td>
+          </tr>
+          <tr>
+            <td><kbd>^</kbd></td>
+            <td><span class="func">dired-up-directory</span></td>
+          </tr>
+          <tr>
+            <td><kbd>a</kbd></td>
+            <td><span class="func">dired-find-alternate-file</span></td>
+          </tr>
+          <tr>
+            <td><kbd>d</kbd></td>
+            <td><span class="func">dired-flag-file-deletion</span></td>
+          </tr>
+          <tr>
+            <td><kbd>g</kbd></td>
+            <td><span class="func">revert-buffer</span></td>
+          </tr>
+          <tr>
+            <td><kbd>h</kbd></td>
+            <td><span class="func">describe-mode</span></td>
+          </tr>
+          <tr>
+            <td><kbd>i</kbd></td>
+            <td><span class="func">dired-maybe-insert-subdir</span></td>
+          </tr>
+          <tr>
+            <td><kbd>j</kbd></td>
+            <td><span class="func">dired-goto-file</span></td>
+          </tr>
+          <tr>
+            <td><kbd>k</kbd></td>
+            <td><span class="func">dired-do-kill-lines</span></td>
+          </tr>
+          <tr>
+            <td><kbd>l</kbd></td>
+            <td><span class="func">dired-do-redisplay</span></td>
+          </tr>
+          <tr>
+            <td><kbd>m</kbd></td>
+            <td><span class="func">dired-mark</span></td>
+          </tr>
+          <tr>
+            <td><kbd>n</kbd></td>
+            <td><span class="func">dired-next-line</span></td>
+          </tr>
+          <tr>
+            <td><kbd>o</kbd></td>
+            <td><span class="func">dired-find-file-other-window</span></td>
+          </tr>
+          <tr>
+            <td><kbd>p</kbd></td>
+            <td><span class="func">dired-previous-line</span></td>
+          </tr>
+          <tr>
+            <td><kbd>q</kbd></td>
+            <td><span class="func">quit-window</span></td>
+          </tr>
+          <tr>
+            <td><kbd>s</kbd></td>
+            <td><span class="func">dired-sort-toggle-or-edit</span></td>
+          </tr>
+          <tr>
+            <td><kbd>t</kbd></td>
+            <td><span class="func">dired-toggle-marks</span></td>
+          </tr>
+          <tr>
+            <td><kbd>u</kbd></td>
+            <td><span class="func">dired-unmark</span></td>
+          </tr>
+          <tr>
+            <td><kbd>v</kbd></td>
+            <td><span class="func">dired-view-file</span></td>
+          </tr>
+          <tr>
+            <td><kbd>w</kbd></td>
+            <td><span class="func">dired-copy-filename-as-kill</span></td>
+          </tr>
+          <tr>
+            <td><kbd>x</kbd></td>
+            <td><span class="func">dired-do-flagged-delete</span></td>
+          </tr>
+          <tr>
+            <td><kbd>y</kbd></td>
+            <td><span class="func">dired-show-file-type</span></td>
+          </tr>
+          <tr>
+            <td><kbd>~</kbd></td>
+            <td><span class="func">dired-flag-backup-files</span></td>
+          </tr>
+          <tr>
+            <td><kbd>DEL</kbd></td>
+            <td><span class="func">dired-unmark-backward</span></td>
+          </tr>
+          <tr>
+            <td><kbd>C-{</kbd></td>
+            <td><span class="func">dired-narrow-window</span></td>
+          </tr>
+          <tr>
+            <td><kbd>C-t</kbd> <kbd>C-t</kbd></td>
+            <td><span class="func">image-dired-dired-toggle-marked-thumbs</span></td>
+          </tr>
+          <tr>
+            <td><kbd>C-t</kbd> <kbd>.</kbd></td>
+            <td><span class="func">image-dired-display-thumb</span></td>
+          </tr>
+          <tr>
+            <td><kbd>C-t</kbd> <kbd>a</kbd></td>
+            <td><span class="func">image-dired-display-thumbs-append</span></td>
+          </tr>
+          <tr>
+            <td><kbd>C-t</kbd> <kbd>c</kbd></td>
+            <td><span class="func">image-dired-dired-comment-files</span></td>
+          </tr>
+          <tr>
+            <td><kbd>C-t</kbd> <kbd>d</kbd></td>
+            <td><span class="func">image-dired-display-thumbs</span></td>
+          </tr>
+          <tr>
+            <td><kbd>C-t</kbd> <kbd>e</kbd></td>
+            <td><span class="func">image-dired-dired-edit-comment-and-tags</span></td>
+          </tr>
+          <tr>
+            <td><kbd>C-t</kbd> <kbd>f</kbd></td>
+            <td><span class="func">image-dired-mark-tagged-files</span></td>
+          </tr>
+          <tr>
+            <td><kbd>C-t</kbd> <kbd>i</kbd></td>
+            <td><span class="func">image-dired-dired-display-image</span></td>
+          </tr>
+          <tr>
+            <td><kbd>C-t</kbd> <kbd>j</kbd></td>
+            <td><span class="func">image-dired-jump-thumbnail-buffer</span></td>
+          </tr>
+          <tr>
+            <td><kbd>C-t</kbd> <kbd>r</kbd></td>
+            <td><span class="func">image-dired-delete-tag</span></td>
+          </tr>
+          <tr>
+            <td><kbd>C-t</kbd> <kbd>t</kbd></td>
+            <td><span class="func">image-dired-tag-files</span></td>
+          </tr>
+          <tr>
+            <td><kbd>C-t</kbd> <kbd>x</kbd></td>
+            <td><span class="func">image-dired-dired-display-external</span></td>
+          </tr>
+          <tr>
+            <td><kbd>C-M-d</kbd></td>
+            <td><span class="func">dired-tree-down</span></td>
+          </tr>
+          <tr>
+            <td><kbd>C-M-n</kbd></td>
+            <td><span class="func">dired-next-subdir</span></td>
+          </tr>
+          <tr>
+            <td><kbd>C-M-p</kbd></td>
+            <td><span class="func">dired-prev-subdir</span></td>
+          </tr>
+          <tr>
+            <td><kbd>C-M-u</kbd></td>
+            <td><span class="func">dired-tree-up</span></td>
+          </tr>
+          <tr>
+            <td><kbd>M-$</kbd></td>
+            <td><span class="func">dired-hide-all</span></td>
+          </tr>
+          <tr>
+            <td><kbd>M-s</kbd></td>
+            <td><span class="func">Prefix Command</span></td>
+          </tr>
+          <tr>
+            <td><kbd>M-{</kbd></td>
+            <td><span class="func">dired-prev-marked-file</span></td>
+          </tr>
+          <tr>
+            <td><kbd>M-}</kbd></td>
+            <td><span class="func">dired-next-marked-file</span></td>
+          </tr>
+          <tr>
+            <td><kbd>M-DEL</kbd></td>
+            <td><span class="func">dired-unmark-all-files</span></td>
+          </tr>
+          <tr>
+            <td><kbd>M-s</kbd> <kbd>a</kbd></td>
+            <td><span class="func">Prefix Command</span></td>
+          </tr>
+          <tr>
+            <td><kbd>M-s</kbd> <kbd>f</kbd></td>
+            <td><span class="func">Prefix Command</span></td>
+          </tr>
+          <tr>
+            <td><kbd>%</kbd> <kbd>&amp;</kbd></td>
+            <td><span class="func">dired-flag-garbage-files</span></td>
+          </tr>
+          <tr>
+            <td><kbd>%</kbd> <kbd>C</kbd></td>
+            <td><span class="func">dired-do-copy-regexp</span></td>
+          </tr>
+          <tr>
+            <td><kbd>%</kbd> <kbd>H</kbd></td>
+            <td><span class="func">dired-do-hardlink-regexp</span></td>
+          </tr>
+          <tr>
+            <td><kbd>%</kbd> <kbd>R</kbd></td>
+            <td><span class="func">dired-do-rename-regexp</span></td>
+          </tr>
+          <tr>
+            <td><kbd>%</kbd> <kbd>S</kbd></td>
+            <td><span class="func">dired-do-symlink-regexp</span></td>
+          </tr>
+          <tr>
+            <td><kbd>%</kbd> <kbd>d</kbd></td>
+            <td><span class="func">dired-flag-files-regexp</span></td>
+          </tr>
+          <tr>
+            <td><kbd>%</kbd> <kbd>g</kbd></td>
+            <td><span class="func">dired-mark-files-containing-regexp</span></td>
+          </tr>
+          <tr>
+            <td><kbd>%</kbd> <kbd>l</kbd></td>
+            <td><span class="func">dired-downcase</span></td>
+          </tr>
+          <tr>
+            <td><kbd>%</kbd> <kbd>m</kbd></td>
+            <td><span class="func">dired-mark-files-regexp</span></td>
+          </tr>
+          <tr>
+            <td><kbd>%</kbd> <kbd>r</kbd></td>
+            <td><span class="func">dired-do-rename-regexp</span></td>
+          </tr>
+          <tr>
+            <td><kbd>%</kbd> <kbd>u</kbd></td>
+            <td><span class="func">dired-upcase</span></td>
+          </tr>
+          <tr>
+            <td><kbd>*</kbd> <kbd>C-n</kbd></td>
+            <td><span class="func">dired-next-marked-file</span></td>
+          </tr>
+          <tr>
+            <td><kbd>*</kbd> <kbd>C-p</kbd></td>
+            <td><span class="func">dired-prev-marked-file</span></td>
+          </tr>
+          <tr>
+            <td><kbd>*</kbd> <kbd>!</kbd></td>
+            <td><span class="func">dired-unmark-all-marks</span></td>
+          </tr>
+          <tr>
+            <td><kbd>*</kbd> <kbd>%</kbd></td>
+            <td><span class="func">dired-mark-files-regexp</span></td>
+          </tr>
+          <tr>
+            <td><kbd>*</kbd> <kbd>*</kbd></td>
+            <td><span class="func">dired-mark-executables</span></td>
+          </tr>
+          <tr>
+            <td><kbd>*</kbd> <kbd>/</kbd></td>
+            <td><span class="func">dired-mark-directories</span></td>
+          </tr>
+          <tr>
+            <td><kbd>*</kbd> <kbd>?</kbd></td>
+            <td><span class="func">dired-unmark-all-files</span></td>
+          </tr>
+          <tr>
+            <td><kbd>*</kbd> <kbd>@</kbd></td>
+            <td><span class="func">dired-mark-symlinks</span></td>
+          </tr>
+          <tr>
+            <td><kbd>*</kbd> <kbd>c</kbd></td>
+            <td><span class="func">dired-change-marks</span></td>
+          </tr>
+          <tr>
+            <td><kbd>*</kbd> <kbd>m</kbd></td>
+            <td><span class="func">dired-mark</span></td>
+          </tr>
+          <tr>
+            <td><kbd>*</kbd> <kbd>s</kbd></td>
+            <td><span class="func">dired-mark-subdir-files</span></td>
+          </tr>
+          <tr>
+            <td><kbd>*</kbd> <kbd>t</kbd></td>
+            <td><span class="func">dired-toggle-marks</span></td>
+          </tr>
+          <tr>
+            <td><kbd>*</kbd> <kbd>u</kbd></td>
+            <td><span class="func">dired-unmark</span></td>
+          </tr>
+          <tr>
+            <td><kbd>*</kbd> <kbd>DEL</kbd></td>
+            <td><span class="func">dired-unmark-backward</span></td>
+          </tr>
+          <tr>
+            <td><kbd>:</kbd> <kbd>d</kbd></td>
+            <td><span class="func">epa-dired-do-decrypt</span></td>
+          </tr>
+          <tr>
+            <td><kbd>:</kbd> <kbd>e</kbd></td>
+            <td><span class="func">epa-dired-do-encrypt</span></td>
+          </tr>
+          <tr>
+            <td><kbd>:</kbd> <kbd>s</kbd></td>
+            <td><span class="func">epa-dired-do-sign</span></td>
+          </tr>
+          <tr>
+            <td><kbd>:</kbd> <kbd>v</kbd></td>
+            <td><span class="func">epa-dired-do-verify</span></td>
+          </tr>
+          <tr>
+            <td><kbd>M-s</kbd> <kbd>f</kbd> <kbd>C-s</kbd></td>
+            <td><span class="func">dired-isearch-filenames</span></td>
+          </tr>
+          <tr>
+            <td><kbd>M-s</kbd> <kbd>f</kbd> <kbd>ESC</kbd></td>
+            <td><span class="func">Prefix Command</span></td>
+          </tr>
+          <tr>
+            <td><kbd>M-s</kbd> <kbd>a</kbd> <kbd>C-s</kbd></td>
+            <td><span class="func">dired-do-isearch</span></td>
+          </tr>
+          <tr>
+            <td><kbd>M-s</kbd> <kbd>a</kbd> <kbd>ESC</kbd></td>
+            <td><span class="func">Prefix Command</span></td>
+          </tr>
+          <tr>
+            <td><kbd>M-s</kbd> <kbd>f</kbd> <kbd>C-M-s</kbd></td>
+            <td><span class="func">dired-isearch-filenames-regexp</span></td>
+          </tr>
+          <tr>
+            <td><kbd>M-s</kbd> <kbd>a</kbd> <kbd>C-M-s</kbd></td>
+            <td><span class="func">dired-do-isearch-regexp</span></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h3>Customization Vars</h3>
+      
+      <p>Customization variables (rename this buffer and type C-h v on each line
+      for more info):</p>
+      
+      <pre><span class="func">dired-listing-switches
+dired-trivial-filenames
+dired-marker-char
+dired-del-marker
+dired-keep-marker-rename
+dired-keep-marker-copy
+dired-keep-marker-hardlink
+dired-keep-marker-symlink</span></pre>
+      
+      <h3>Hooks (use C-h v to see their documentation):</h3>
+      
+      <pre><span class="func">dired-before-readin-hook
+dired-after-readin-hook
+dired-mode-hook
+dired-load-hook</span></pre>
+
+<small>
+      <p><small>Special note of thanks to Michael Hüneburg - the keys.css is based on his work. </small></p>
+      <p><small>Governed by the GNU/GPL Licence</small> - <small> created by JL.Milkins - Generated from Dired Mode help / <a href="http://emacsfodder.github.io">http://emacsfodder.github.io</a> </small></p>
+</small>
+      
+    </div>
+  </body>
+</html>
