@@ -88,8 +88,8 @@ dired-load-hook
 
 Use hooks like this...:
 
-    (add-hook HOOK_TO_USE (lamda () ;; or just bind a function
-        "Description"
-        ;;(Do something...)
-    ))
+bc. (add-hook HOOK_TO_USE (lamda () ;; or just bind a function
+   "Description"
+   ;;(Do something...)
+ ))
 
