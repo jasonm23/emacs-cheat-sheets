@@ -6,9 +6,7 @@ A work in progress, a collection of cheatsheets for Emacs modes and emacslisp.
 
 The immensly powerful file manager sitting inside Emacs...
 
-### Keybindings:
-
-###  key - binding 
+###  Key bindings
  
 <kbd>(</kbd> and <kbd>)</kbd> **dired-details-toggle**
 
@@ -170,7 +168,7 @@ The immensly powerful file manager sitting inside Emacs...
 
 <kbd>M</kbd>-<kbd>DEL</kbd> **dired-unmark-all-files**
 
-<kbd>%</kbb> <kbd>&</kbd> **dired-flag-garbage-files**
+<kbd>%</kbb> <kbd>&amp;</kbd> **dired-flag-garbage-files**
 
 <kbd>%</kbd> <kbd>C</kbd> **dired-do-copy-regexp**
 
@@ -200,7 +198,7 @@ The immensly powerful file manager sitting inside Emacs...
 
 <kbd>\*</kbd> <kbd>%</kbd> **dired-mark-files-regexp**
 
-<kbd>\*</kbd> <kbd>*</kbd> **dired-mark-executables**
+<kbd>\*</kbd> <kbd>\*</kbd> **dired-mark-executables**
 
 <kbd>\*</kbd> <kbd>/</kbd> **dired-mark-directories**
 
