@@ -168,7 +168,7 @@ The immensly powerful file manager sitting inside Emacs...
 
 <kbd>M</kbd>-<kbd>DEL</kbd> **dired-unmark-all-files**
 
-<kbd>%</kbb> <kbd>&amp;</kbd> **dired-flag-garbage-files**
+<kbd>%</kbd> <kbd>&amp;</kbd> **dired-flag-garbage-files**
 
 <kbd>%</kbd> <kbd>C</kbd> **dired-do-copy-regexp**
 
