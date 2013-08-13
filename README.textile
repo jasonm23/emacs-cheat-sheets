@@ -1,6 +1,11 @@
 h1. Emacs CheatSheets
 
-A work in progress, a collection of cheatsheets for Emacs, covering modes, commands and emacslisp.
+A work in progress, a collection of cheatsheets for Emacs, covering modes,
+commands and emacslisp. Keys are writted as <kbd>C-a</kbd> for
+<kbd>Ctrl</kbd> + <kbd>a</kbd> or <kbd>M-a</kbd> for <kbd>Meta</kbd> (usually <kbd>Alt</kbd>
+or <kbd>Opt</kbd> on PC or Mac keyboards.) If there's a space between keys, it means they're
+pressed in seqeunce. If they're in the same <kbd>Key</kbd> they're pressed at the
+same time, as you would a piano chord, or <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Del</kbd>
 
 h3. Dired 
 
@@ -8,9 +13,9 @@ The immensely powerful file manager sitting inside Emacs.
 
 h3. Key bindings
 
-Including a few additional bindings for @dired-details@. Install it with <kbd>M-x</kbd> @package-install@ @dired-details@ <kbd>RET</kbd>
+Including a few additional bindings for @dired-details@. Install it with <kbd>M-x</kbd> @package-install@ <kbd>RET</kbd> @dired-details@ <kbd>RET</kbd>
 
-| <kbd>(</kbd> &nbsp;  and <kbd>)</kbd> &nbsp;   *dired-details-toggle*  | <kbd>DEL</kbd> &nbsp;   *dired-unmark-backward*                                                       |
+| <kbd>(</kbd> &nbsp;  and <kbd>)</kbd> &nbsp;   *dired-details-toggle*  | <kbd>Del</kbd> &nbsp;   *dired-unmark-backward*                                                       |
 | <kbd>e</kbd> &nbsp;  and <kbd>f</kbd> &nbsp;   *dired-find-file*       | <kbd>C-{</kbd> &nbsp;   *dired-narrow-window*                                                         |
 | <kbd>RET</kbd> &nbsp;   *dired-find-file*                              | <kbd>C-t</kbd> &nbsp;  <kbd>C-t</kbd> &nbsp;   *image-dired-dired-toggle-marked-thumbs*               |
 | <kbd>C-o</kbd> &nbsp;   *dired-display-file*                           | <kbd>C-t</kbd> &nbsp;  <kbd>.</kbd> &nbsp;   *image-dired-display-thumb*                              |
@@ -30,7 +35,7 @@ Including a few additional bindings for @dired-details@. Install it with <kbd>M-
 | <kbd>A</kbd> &nbsp;   *dired-do-search*                                | <kbd>M-$</kbd> &nbsp;   *dired-hide-all*                                                              |
 | <kbd>B</kbd> &nbsp;   *dired-do-byte-compile*                          | <kbd>M-{</kbd> &nbsp;   *dired-prev-marked-file*                                                      |
 | <kbd>C</kbd> &nbsp;   *dired-do-copy*                                  | <kbd>M-}</kbd> &nbsp;   *dired-next-marked-file*                                                      |
-| <kbd>D</kbd> &nbsp;   *dired-do-delete*                                | <kbd>M-DEL</kbd> &nbsp;   *dired-unmark-all-files*                                                    |
+| <kbd>D</kbd> &nbsp;   *dired-do-delete*                                | <kbd>M-Del</kbd> &nbsp;   *dired-unmark-all-files*                                                    |
 | <kbd>F</kbd> &nbsp;   *my-dired-find-file*                             | <kbd>%</kbd> &nbsp;  <kbd>&amp;</kbd> &nbsp;   *dired-flag-garbage-files*                             |
 | <kbd>G</kbd> &nbsp;   *dired-do-chgrp*                                 | <kbd>%</kbd> &nbsp;  <kbd>C</kbd> &nbsp;   *dired-do-copy-regexp*                                     |
 | <kbd>H</kbd> &nbsp;   *dired-do-hardlink*                              | <kbd>%</kbd> &nbsp;  <kbd>H</kbd> &nbsp;   *dired-do-hardlink-regexp*                                 |
@@ -55,7 +60,7 @@ Including a few additional bindings for @dired-details@. Install it with <kbd>M-
 | <kbd>k</kbd> &nbsp;   *dired-do-kill-lines*                            | <kbd> * </kbd> &nbsp;  <kbd> s </kbd> &nbsp;   *dired-mark-subdir-files*                              |
 | <kbd>l</kbd> &nbsp;   *dired-do-redisplay*                             | <kbd> * </kbd> &nbsp;  <kbd> t </kbd> &nbsp;   *dired-toggle-marks*                                   |
 | <kbd>m</kbd> &nbsp;   *dired-mark*                                     | <kbd> * </kbd> &nbsp;  <kbd> u </kbd> &nbsp;   *dired-unmark*                                         |
-| <kbd>n</kbd> &nbsp;   *dired-next-line*                                | <kbd> * </kbd> &nbsp;  <kbd> DEL </kbd> &nbsp;   *dired-unmark-backward*                              |
+| <kbd>n</kbd> &nbsp;   *dired-next-line*                                | <kbd> * </kbd> &nbsp;  <kbd> Del </kbd> &nbsp;   *dired-unmark-backward*                              |
 | <kbd>o</kbd> &nbsp;   *dired-find-file-other-window*                   | <kbd>:</kbd> &nbsp;  <kbd>d</kbd> &nbsp;   *epa-dired-do-decrypt*                                     |
 | <kbd>p</kbd> &nbsp;   *dired-previous-line*                            | <kbd>:</kbd> &nbsp;  <kbd>e</kbd> &nbsp;   *epa-dired-do-encrypt*                                     |
 | <kbd>q</kbd> &nbsp;   *quit-window*                                    | <kbd>:</kbd> &nbsp;  <kbd>s</kbd> &nbsp;   *epa-dired-do-sign*                                        |
