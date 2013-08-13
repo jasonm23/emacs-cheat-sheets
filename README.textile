@@ -29,17 +29,17 @@ h3. Key bindings
 | <kbd>B</kbd>  *dired-do-byte-compile*                  | <kbd>M-{</kbd>  *dired-prev-marked-file*                                       |
 | <kbd>C</kbd>  *dired-do-copy*                          | <kbd>M-}</kbd>  *dired-next-marked-file*                                       |
 | <kbd>D</kbd>  *dired-do-delete*                        | <kbd>M-DEL</kbd>  *dired-unmark-all-files*                                     |
-| <kbd>F</kbd>  *my-dired-find-file*                     | <kbd>%</kbd> &nbps; <kbd>&amp;</kbd>  *dired-flag-garbage-files*                      |
-| <kbd>G</kbd>  *dired-do-chgrp*                         | <kbd>%</kbd> &nbps; <kbd>C</kbd>  *dired-do-copy-regexp*                              |
-| <kbd>H</kbd>  *dired-do-hardlink*                      | <kbd>%</kbd> &nbps; <kbd>H</kbd>  *dired-do-hardlink-regexp*                          |
-| <kbd>L</kbd>  *dired-do-load*                          | <kbd>%</kbd> &nbps; <kbd>R</kbd>  *dired-do-rename-regexp*                            |
-| <kbd>M</kbd>  *dired-do-chmod*                         | <kbd>%</kbd> &nbps; <kbd>S</kbd>  *dired-do-symlink-regexp*                           |
-| <kbd>O</kbd>  *dired-do-chown*                         | <kbd>%</kbd> &nbps; <kbd>d</kbd>  *dired-flag-files-regexp*                           |
-| <kbd>P</kbd>  *dired-do-print*                         | <kbd>%</kbd> &nbps; <kbd>g</kbd>  *dired-mark-files-containing-regexp*                |
-| <kbd>Q</kbd>  *dired-do-query-replace-regexp*          | <kbd>%</kbd> &nbps; <kbd>l</kbd>  *dired-downcase*                                    |
-| <kbd>R</kbd>  *dired-do-rename*                        | <kbd>%</kbd> &nbps; <kbd>m</kbd>  *dired-mark-files-regexp*                           |
-| <kbd>S</kbd>  *dired-do-symlink*                       | <kbd>%</kbd> &nbps; <kbd>r</kbd>  *dired-do-rename-regexp*                            |
-| <kbd>T</kbd>  *dired-do-touch*                         | <kbd>%</kbd> &nbps; <kbd>u</kbd>  *dired-upcase*                                      |
+| <kbd>F</kbd>  *my-dired-find-file*                     | <kbd>%</kbd> &nbsp; <kbd>&amp;</kbd>  *dired-flag-garbage-files*                      |
+| <kbd>G</kbd>  *dired-do-chgrp*                         | <kbd>%</kbd> &nbsp; <kbd>C</kbd>  *dired-do-copy-regexp*                              |
+| <kbd>H</kbd>  *dired-do-hardlink*                      | <kbd>%</kbd> &nbsp; <kbd>H</kbd>  *dired-do-hardlink-regexp*                          |
+| <kbd>L</kbd>  *dired-do-load*                          | <kbd>%</kbd> &nbsp; <kbd>R</kbd>  *dired-do-rename-regexp*                            |
+| <kbd>M</kbd>  *dired-do-chmod*                         | <kbd>%</kbd> &nbsp; <kbd>S</kbd>  *dired-do-symlink-regexp*                           |
+| <kbd>O</kbd>  *dired-do-chown*                         | <kbd>%</kbd> &nbsp; <kbd>d</kbd>  *dired-flag-files-regexp*                           |
+| <kbd>P</kbd>  *dired-do-print*                         | <kbd>%</kbd> &nbsp; <kbd>g</kbd>  *dired-mark-files-containing-regexp*                |
+| <kbd>Q</kbd>  *dired-do-query-replace-regexp*          | <kbd>%</kbd> &nbsp; <kbd>l</kbd>  *dired-downcase*                                    |
+| <kbd>R</kbd>  *dired-do-rename*                        | <kbd>%</kbd> &nbsp; <kbd>m</kbd>  *dired-mark-files-regexp*                           |
+| <kbd>S</kbd>  *dired-do-symlink*                       | <kbd>%</kbd> &nbsp; <kbd>r</kbd>  *dired-do-rename-regexp*                            |
+| <kbd>T</kbd>  *dired-do-touch*                         | <kbd>%</kbd> &nbsp; <kbd>u</kbd>  *dired-upcase*                                      |
 | <kbd>U</kbd>  *dired-unmark-all-marks*                 | <kbd> * </kbd> &nbsp; <kbd>C-n</kbd>  *dired-next-marked-file*                 |
 | <kbd>X</kbd>  *dired-do-shell-command*                 | <kbd> * </kbd> &nbsp; <kbd>C-p</kbd>  *dired-prev-marked-file*                 |
 | <kbd>Z</kbd>  *dired-do-compress*                      | <kbd> * </kbd> &nbsp; <kbd> ! </kbd>  *dired-unmark-all-marks*                 |
