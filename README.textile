@@ -1,14 +1,15 @@
-# Emacs CheatSheets
+h1. Emacs CheatSheets
 
-A work in progress, a collection of cheatsheets for Emacs modes and emacslisp.
+A work in progress, a collection of cheatsheets for Emacs modes and
 
-### Dired 
+h3. Dired 
 
-The immensly powerful file manager sitting inside Emacs...
+The immensly powerful file manager sitting inside
 
-###  Key bindings
- 
-<kbd>(</kbd> and <kbd>)</kbd> **dired-details-toggle**
+h3. Key bindings
+
+; <kbd>(</kbd> and <kbd>)</kbd>
+: *dired-details-toggle*
 
 <kbd>e</kbd> and <kbd>f</kbd> **dired-find-file**
 
