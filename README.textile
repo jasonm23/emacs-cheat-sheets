@@ -8,6 +8,8 @@ The immensely powerful file manager sitting inside Emacs.
 
 h3. Key bindings
 
+A few additional bindings for `dired-details`
+
 | <kbd>(</kbd> &nbsp;  and <kbd>)</kbd> &nbsp;   *dired-details-toggle*  | <kbd>DEL</kbd> &nbsp;   *dired-unmark-backward*                                                       |
 | <kbd>e</kbd> &nbsp;  and <kbd>f</kbd> &nbsp;   *dired-find-file*       | <kbd>C-{</kbd> &nbsp;   *dired-narrow-window*                                                         |
 | <kbd>RET</kbd> &nbsp;   *dired-find-file*                              | <kbd>C-t</kbd> &nbsp;  <kbd>C-t</kbd> &nbsp;   *image-dired-dired-toggle-marked-thumbs*               |
