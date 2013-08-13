@@ -1,17 +1,24 @@
 h1. Emacs CheatSheets
 
 A work in progress, a collection of cheatsheets for Emacs, covering modes,
-commands and emacslisp. Keys are expressed as follows: <kbd>C-a</kbd> means
-<kbd>Ctrl</kbd> + <kbd>a</kbd>
+commands and emacslisp.
 
-<kbd>M-a</kbd> for <kbd>Meta</kbd> + <kbd>a</kbd>
+Key bindings are expressed as follows:
+
+<kbd>C-a</kbd> is <kbd>Ctrl</kbd> + <kbd>a</kbd>
+
+<kbd>M-a</kbd> is <kbd>Meta</kbd> + <kbd>a</kbd>
 
 <kbd>Meta</kbd> is usually <kbd>Alt</kbd> or <kbd>Opt</kbd> on PC or Mac keyboards.
+<kbd>Meta</kbd> dates back to the Lisp machine era, and the SpaceCadet keyboard, which also had
+<kbd>Hyper</kbd> and <kbd>Super</kbd> keys. Emacs knows about these keys, and you can get the
+Mac Command key or the Windows _Windows_ key to behave as <kbd>Hyper</kbd> or <kbd>Super</kbd>
+which gives you more key shortcut freedom.
 
-Whenever a binding is shown with a space between keys, they are pressed in seqeunce. If they're
-in the same <kbd>Key</kbd> block, they're pressed at the same time. These are called Chords (as
-they would be on a piano) or you can think of them like <kbd>Ctrl</kbd> + <kbd>Alt</kbd> +
-<kbd>Del</kbd>, but with a bit less stretching.
+Whenever a binding is shown with a space between the keys, they're meant to be pressed
+in seqeunce. If they're in the same <kbd>Key</kbd> block, they're pressed at the same
+time. These are called Chords (as they would be on a piano) or you can think of them
+like <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Del</kbd>, but with a bit less stretching.
 
 h3. Dired 
 
