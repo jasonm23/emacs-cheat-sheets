@@ -1,11 +1,17 @@
 h1. Emacs CheatSheets
 
 A work in progress, a collection of cheatsheets for Emacs, covering modes,
-commands and emacslisp. Keys are writted as <kbd>C-a</kbd> for
-<kbd>Ctrl</kbd> + <kbd>a</kbd> or <kbd>M-a</kbd> for <kbd>Meta</kbd> (usually <kbd>Alt</kbd>
-or <kbd>Opt</kbd> on PC or Mac keyboards.) If there's a space between keys, it means they're
-pressed in seqeunce. If they're in the same <kbd>Key</kbd> they're pressed at the
-same time, as you would a piano chord, or <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Del</kbd>
+commands and emacslisp. Keys are expressed as follows: <kbd>C-a</kbd> means
+<kbd>Ctrl</kbd> + <kbd>a</kbd>
+
+<kbd>M-a</kbd> for <kbd>Meta</kbd> + <kbd>a</kbd>
+
+<kbd>Meta</kbd> is usually <kbd>Alt</kbd> or <kbd>Opt</kbd> on PC or Mac keyboards.
+
+Whenever a binding is shown with a space between keys, they are pressed in seqeunce. If they're
+in the same <kbd>Key</kbd> block, they're pressed at the same time. These are called Chords (as
+they would be on a piano) or you can think of them like <kbd>Ctrl</kbd> + <kbd>Alt</kbd> +
+<kbd>Del</kbd>, but with a bit less stretching.
 
 h3. Dired 
 
