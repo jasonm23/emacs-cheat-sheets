@@ -8,7 +8,7 @@ The immensely powerful file manager sitting inside Emacs.
 
 h3. Key bindings
 
-A few additional bindings for `dired-details`
+Including a few additional bindings for @dired-details@. Install it with <kbd>M-x</kbd> @package-install@ @dired-details@ <kbd>RET</kbd>
 
 | <kbd>(</kbd> &nbsp;  and <kbd>)</kbd> &nbsp;   *dired-details-toggle*  | <kbd>DEL</kbd> &nbsp;   *dired-unmark-backward*                                                       |
 | <kbd>e</kbd> &nbsp;  and <kbd>f</kbd> &nbsp;   *dired-find-file*       | <kbd>C-{</kbd> &nbsp;   *dired-narrow-window*                                                         |
